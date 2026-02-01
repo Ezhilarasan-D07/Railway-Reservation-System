@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    border:0;
+    margin:0;
+    font-family:poppins;
+}
+
+.container{
+    font-family:poppins;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+}
+
+label{
+    font-weight:600;
+    letter-spacing: .5px;
+    line-height:30px;
+}
+
+h2{
+    position:relative;
+    top:40px;
+    caret-color:transparent;
+}
+
+form{
+    position: relative;
+    top:40px;
+    border-radius: 10px;
+    width:300px;
+    padding:20px 40px;
+    caret-color:transparent;
+    box-shadow: 0px 0px 20px rgb(212, 212, 212);
+    transition:box-shadow .2s;
+}
+
+form:hover{
+    box-shadow: 0px 0px 40px rgb(212, 212, 212);
+}
+
+input[type=text]{
+    width:95%;
+    background-color:#eee;
+    padding:10px 0px;
+    padding-left: 15px;
+    margin-bottom:20px;
+    font-family:poppins;
+    font-size:14px;
+    border-radius:5px;
+    outline:none;
+    border:none;
+}
+
+input[type=text]:focus{
+    caret-color: black;
+}
+
+#passenger_id{
+   
+}
+
+.subbox {
+    display: flex;
+    justify-content: center;
+}
+
+input[type=submit] 
+{
+    color: white;
+    padding: 10px 30px; 
+    outline: none; 
+    border: none;
+    background: rgb(103, 186, 253);
+    font-family:poppins;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+input[type=submit]:hover{
+    cursor:pointer;
+    background-color: rgb(51, 163, 255);
+}

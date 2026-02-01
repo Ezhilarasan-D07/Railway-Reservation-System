@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    margin:0;
+    border:0;
+}
+
+.container{
+    font-family:poppins;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    position:relative;
+    bottom:-10px;
+}
+
+form{
+    height:65vh;
+    border-radius:15px;
+    display:flex;
+    flex-direction:column;
+    padding:40px;
+    box-shadow:0px 0px 20px rgb(204, 204, 204);
+    transition:box-shadow .2s;
+    gap:10px;
+}
+
+form:hover{
+    box-shadow:0px 0px 40px rgb(204, 204, 204);
+}
+
+.box{
+    display:flex;
+    flex-direction:column;
+    height: 90px;
+}
+
+label{
+    padding-bottom:3px;
+    font-weight: 500;
+    letter-spacing:1px;
+}
+
+.textbox{
+    width:300px;
+    padding:12px 3px 12px 15px;
+    font-size:16px;
+    border-radius:5px;
+    background-color:#eee;
+    border:none;
+    outline:none;
+}
+
+.cbox{
+    display:inline;
+}
+
+.remember{
+    font-size: 15px;
+    position:relative;
+    top:-5px;
+    left:80px;
+}
+
+input[type=checkbox]{
+    position:relative;
+    top:-2px;
+    left:83px;
+    padding: 100px;
+    transform: scale(1.3);
+    accent-color: rgb(103, 200, 253);
+    cursor: pointer;
+}
+
+input[type=checkbox]:hover{
+    accent-color: rgb(51, 163, 255);
+}
+
+.btn{
+    position: relative;
+    display:flex;
+    align-items: center;
+}
+
+#button{
+    font-size: 16px;
+    border-radius:8px;
+    border:none;
+    background-color:rgb(103, 186, 253);
+    color:white;
+    padding:10px 30px;
+    cursor:pointer;
+}
+
+#button:hover{
+    background-color: rgb(51, 163, 255);
+}
+
+.error{
+    visibility: hidden;
+    position:relative;
+    top:-15px;
+    font-size: 15px;
+    color:red;
+}
+
+#message-bg{
+    display:none; 
+    position:fixed;
+    background-color: rgba(0,0,0,0.5);
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    user-select: none;
+    font-family:poppins;
+}
+
+#message-box{
+    background-color: white;
+    padding:30px 40px;
+    text-align: center;
+    width:300px;
+    margin:15% auto;
+    border-radius: 8px;
+    line-height: 2;
+}
+
+#x{
+    float: right;
+    font-size:24px;
+    font-weight: bold;
+    cursor:pointer;
+    color:#888;
+}
+
+#x:hover{
+    color:#666666;
+}
+
+#message-close-button{
+    background-color:rgb(103, 186, 253);
+    color:white;
+    border:0;
+    padding:8px 14px;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor:pointer;
+}
+
+#message-close-button:hover{
+    background-color: rgb(51, 163, 255);
+}

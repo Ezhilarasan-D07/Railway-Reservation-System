@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+}
+
+#booking_heading {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    color: #222;
+}
+
+#booking_details_block {
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    padding: 40px;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* Left Column: Ticket Details */
+#ticket_details_block {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+#ticket_details {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    max-width: 600px;
+}
+
+#ticket_details_heading {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+#ticket_details div {
+    font-size: 17px;
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.details {
+    font-weight: 600;
+    display: inline-block;
+    width: 180px;
+    color: #555;
+}
+
+#status {
+    font-weight: 700;
+    color: #1e90ff;
+}
+
+/* Divider Line */
+#line {
+    width: 2px;
+    background-color: #ddd;
+    min-height: 100%;
+    align-self: stretch;
+}
+
+/* Right Column: QR and PDF */
+#QR_block {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#QR_details_heading {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+#QR {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    max-width: 300px;
+    width: 100%;
+}
+
+#QR img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+#QR a, #back {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #007bff;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#QR a:hover, #back:hover {
+    text-decoration: underline;
+}
+
+#back_block{
+    display: flex;
+    flex-direction: row;
+}
+
+#back_logo{
+    position: relative;
+    top: 12px;
+}
+
+#back{
+    padding: 5px;
+}
